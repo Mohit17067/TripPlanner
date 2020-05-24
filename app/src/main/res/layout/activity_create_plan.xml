@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:theme="@style/AppThemeNew"
+    tools:context=".ui.main.CreatePlan">
+
+    <EditText
+        android:id="@+id/detailsField"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Details of the Plan"
+        android:layout_marginTop="20dp"></EditText>
+
+    <TextView
+        android:id="@+id/dateField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:hint="Click to add date" />
+
+    <TextView
+        android:id="@+id/timeField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/customborder"
+        android:hint="Click to add Time" />
+
+    <Button
+        android:id="@+id/savePlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Save Plan"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:background="@drawable/customborder"
+        android:textColor="@color/white_opaque"/>/>
+
+</LinearLayout>

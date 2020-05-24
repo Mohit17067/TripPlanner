@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Trip Planner</string>
+    <string name="tab_text_1">PARTNERS</string>
+    <string name="tab_text_2">TRIP PLAN</string>
+    <string name="tab_text_3">START TRIP</string>
+    <string name="plan_trip">Plan your trip</string>
+</resources>

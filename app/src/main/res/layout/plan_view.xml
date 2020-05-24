@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppThemeNew">
+
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:gravity="left|bottom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/date_time"
+        android:text="TextView"
+        android:gravity="left|top"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignRight="@id/date_time"
+        android:src="@drawable/tick"
+        />
+</RelativeLayout>
