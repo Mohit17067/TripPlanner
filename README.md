@@ -1,4 +1,6 @@
+
 # TripPlanner
+**Download the APK from file - `Application.apk`**<br><br>
 Added Functionality of "Add Another Plan" Button with design.
   
   * Multiple Tabs. **Choose `TRIP PLAN` tab for functionality**
